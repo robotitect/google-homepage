@@ -1,2 +1,2 @@
-A (non-functioning) copy of Google's homepage
 # Google Homepage
+A (non-functioning) copy of Google's homepage
