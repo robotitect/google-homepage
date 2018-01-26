@@ -1,21 +1,24 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+  <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/home.css">
   <title>Google</title>
 </head>
 
 <body>
-  <div class = "links" id = "left">
-    <a href = "">About</a>
-    <a href = "">Store</a>
-  </div>
+  <div>
+    <div class = "links" id = "left">
+      <a href = "">About</a>
+      <a href = "">Store</a>
+    </div>
 
-  <div class = "links" id = "right">
-    <a href = "" href = "">Gmail</a>
-    <a href = "">Images</a>
-    <a href = "">Google Apps</a>
-    <a href = "">Sign in</a>
+    <div class = "links" id = "right">
+      <a href = "" href = "">Gmail</a>
+      <a href = "">Images</a>
+      <a href = "">Google Apps</a>
+      <a href = "">Sign in</a>
+    </div>
   </div>
 
   <div class = "search_form">
@@ -24,24 +27,33 @@
     </div>
     <br>
     <form method = "post">
-      <input>
-      <input
+      <input class = "box"><br>
+      <div id = "buttons">
+        <input type = "submit" value = "Google Search">
+        <input type = "submit" value = "I'm Feeling Lucky">
+      </div>
     </form>
     <br>
-    <p>Google offered in: <a href = "">Français</a></p>
+    <p>Google offered in: <a href = "">Fran&ccedil;ais</a></p>
   </div>
 
-  <div class = "footer" id = "penultimate">
-    <p>Canada<p>
-  </div>
+  <div class = "footer">
+    <span class = "footer_penultimate">
+      <p>Canada<p>
+    </span>
 
-  <div class = "footer" id = "ultimate">
-    <a href = "" class = "left">Advertising</a>
-    <a href = "" class = "left">Business</a>
+    <div class = "footer_ultimate">
+      <span class = "footer_left">
+        <a href = "">Advertising</a>
+        <a href = "">Business</a>
+      </span>
 
-    <a href = "" class = "right">Privacy</a>
-    <a href = "" class = "right">Terms</a>
-    <a href = "" class = "right">Settings</a>
+      <span class = "footer_right">
+        <a href = "">Privacy</a>
+        <a href = "">Terms</a>
+        <a href = "">Settings</a>
+      </span>
+    </div>
   </div>
 
 </body>

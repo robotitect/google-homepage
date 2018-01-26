@@ -1,0 +1,109 @@
+.links
+{
+  position: relative;
+  height: 30px;
+  top: 20px;
+}
+
+#left
+{
+  /*position: absolute;*/
+  float: left;
+  left: 30px;
+}
+
+#right
+{
+  /* position: absolute; */
+  float: right;
+  right: 30px;
+}
+
+.footer
+{
+  position: fixed;
+  bottom: 50px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+}
+
+.footer_penultimate
+{
+  position: relative;
+  float: left;
+  left: 20px;
+  /* bottom: 10px; */
+}
+
+.footer_ultimate
+{
+  position: absolute;
+}
+
+.footer_left
+{
+  position: fixed;
+  float: left;
+  left: 20px;
+}
+
+.footer_right
+{
+  position: fixed;
+  float: right;
+  right: 20px;
+}
+
+.search_form
+{
+  /* float: left;; */
+  position: relative;
+  top: 200px;
+  margin: auto;
+  width: 100%;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px; */
+}
+
+.search_form #logo
+{
+  margin: auto;
+  width: 272px;
+}
+
+form
+{
+  position: relative;
+  width: 60%;
+  margin: auto;
+}
+
+.box
+{
+  width: 100%;
+  height: 25px;
+}
+
+#buttons
+{
+  position: relative;
+  width: 300px;
+  height: 40px;
+  margin: auto;
+}
+
+input[type = "submit"]
+{
+  width: 49%;
+  height: 36px;
+  margin: auto;
+}
+
+.search_form p
+{
+  text-align: center;
+}
