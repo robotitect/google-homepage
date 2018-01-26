@@ -1,8 +1,25 @@
+body
+{
+  /* font-size: 100%; */
+  font-family: arial, sans-serif;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a:visited
+{
+  color: inherit;
+}
+
 .links
 {
   position: relative;
   height: 30px;
   top: 20px;
+  color: #666;
 }
 
 #left
@@ -19,6 +36,18 @@
   right: 30px;
 }
 
+#left a, .footer_left a
+{
+  font-size: 13px;
+  padding-left: 15px;
+}
+
+#right a, .footer_right a
+{
+  font-size: 13px;
+  padding-right: 15px;
+}
+
 .footer
 {
   position: fixed;
@@ -26,6 +55,8 @@
   left: 0px;
   right: 0px;
   width: 100%;
+  background-color: rgb(242, 242, 242);
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .footer_penultimate
@@ -33,12 +64,32 @@
   position: relative;
   float: left;
   left: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-color: rgb(228, 228, 228);
+  /* padding-bottom: 40px; */
   /* bottom: 10px; */
+}
+
+.footer_penultimate p
+{
+  font-size: 15px;
+  /* padding-left: 15px; */
 }
 
 .footer_ultimate
 {
-  position: absolute;
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  position: fixed;
+  margin-bottom: 0px;
+  bottom: 0;
+  background-color: rgb(242, 242, 242);
+
 }
 
 .footer_left
@@ -46,6 +97,7 @@
   position: fixed;
   float: left;
   left: 20px;
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .footer_right
@@ -53,6 +105,7 @@
   position: fixed;
   float: right;
   right: 20px;
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .search_form
@@ -78,18 +131,25 @@
 form
 {
   position: relative;
-  width: 60%;
+  width: 459px;
   margin: auto;
 }
 
 .box
 {
   width: 100%;
-  height: 25px;
+  height: 38px;
+  padding-top: 5px;
+  padding-left: 16px;
+  padding-right: 9px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  /* border-radius: 0px; */
+  border: 0px;
 }
 
 #buttons
 {
+  padding-top: 25px;
   position: relative;
   width: 300px;
   height: 40px;
@@ -98,12 +158,24 @@ form
 
 input[type = "submit"]
 {
+  font-family: inherit;
   width: 49%;
-  height: 36px;
+  height: 44px;
   margin: auto;
+  background-color: rgb(248, 248, 248);
+  border: 0 0 0 0;
+  border-radius: 0px;
+  border-color: rgb(198, 198, 198);
+  border-style: solid;
+  color: rgb(34, 34, 34);
 }
 
 .search_form p
 {
   text-align: center;
+}
+
+.search_form a
+{
+  color: blue;
 }
